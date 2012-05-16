@@ -12,10 +12,10 @@ Gem::Specification.new do |s|
   ## Leave these as is they will be modified for you by the rake gemspec task.
   ## If your rubyforge_project name is different, then edit it and comment out
   ## the sub! line in the Rakefile
-  s.name              = 'acts_as_versioned'
+  s.name              = 'acts_as_versioned_rails3'
   s.version           = '0.6.0'
-  s.date              = '2012-03-28'
-  s.rubyforge_project = 'acts_as_versioned'
+  s.date              = '2012-05-16'
+  s.rubyforge_project = 'acts_as_versioned_rails3'
 
   ## Make sure your summary is short. The description may be as long
   ## as you like.
@@ -25,9 +25,9 @@ Gem::Specification.new do |s|
   ## List the primary authors. If there are a bunch of authors, it's probably
   ## better to set the email to an email list or something. If you don't have
   ## a custom homepage, consider using your GitHub URL or the like.
-  s.authors  = ["Rick Olson"]
-  s.email    = 'technoweenie@gmail.com'
-  s.homepage = 'http://github.com/technoweenie/acts_as_versioned'
+  s.authors  = ["René Madsen"]
+  s.email    = 'rm@microting.com'
+  s.homepage = 'http://github.com/renemadsen/acts_as_versioned_rails3'
 
   ## This gets added to the $LOAD_PATH so that 'lib/NAME.rb' can be required as
   ## require 'NAME.rb' or'/lib/NAME/file.rb' can be as require 'NAME/file.rb'
