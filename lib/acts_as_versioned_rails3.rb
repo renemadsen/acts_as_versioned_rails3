@@ -67,7 +67,7 @@ module ActiveRecord #:nodoc:
     #
     # See ActiveRecord::Acts::Versioned::ClassMethods#acts_as_versioned for configuration options
     module Versioned
-      VERSION   = "0.6.0"
+      VERSION   = "0.6.1"
       CALLBACKS = [:set_new_version, :save_version, :save_version?]
 
       # == Configuration options
@@ -160,7 +160,7 @@ module ActiveRecord #:nodoc:
       #     self.non_versioned_columns << 'comments_count'
       #   end
       #
-      def acts_as_versioned(options = {}, &extension)
+      def acts_as_versioned_rails3(options = {}, &extension)
         # don't allow multiple calls
         return if self.included_modules.include?(ActiveRecord::Acts::Versioned::Behaviors)
 
