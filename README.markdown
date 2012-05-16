@@ -10,6 +10,6 @@ Install
 
    gem install acts_as_versioned_rails3
 
-This is a fork of the origional from technoweenie
+This is a fork of the original from technoweenie
 
 http://github.com/technoweenie/acts_as_versioned
